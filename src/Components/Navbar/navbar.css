@@ -1,0 +1,76 @@
+.navBarSection {
+    /* Stilovi za .navBarSection ako su potrebni */
+  }
+  
+  .header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    width: 100%;
+    padding: 1rem;
+  }
+  
+.header .logoDiv .logo {
+    color: #02121c; /* Boja logo teksta */
+    cursor: pointer;
+    display: flex; /* Dodao display flex da bi align-items radilo */
+    align-items: center;
+    justify-self: center;
+  }
+  h1{
+    font-weight: 2000;
+  }
+  .navBar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navlists {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navItem {
+    margin-right: 1rem;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .headerBtns {
+    display: flex;
+  }
+  
+  .btn {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #02121c; /* Promijenite boju po potrebi */
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btn.loginBtn {
+    background-color: transparent;
+    color: #02121c; /* Boja za login dugme */
+  }
+  
+  .closeNavbar {
+    display: none; /* Prilagodite po potrebi */
+  }
+  
+  .toggleNavbar {
+    display: none; /* Prilagodite po potrebi */
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+  }
+  
+  
