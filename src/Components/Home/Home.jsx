@@ -7,7 +7,7 @@ const Home = () => {
 <div className="secContainer container">
   <div className="homeText">
     <h1 className="title">
-      Plan Your Trip With Travel Dot
+      Plan Your Trip With ExploreBosnia
     </h1>
 
     <p className="subTitle">
@@ -20,20 +20,17 @@ const Home = () => {
   </div>
 
   <div className="homeCard grid">
+
     <div className="locationDiv">
       <label htmlFor="location">Location</label>
       <input type="text" placeholder='Dream Destination' />
     </div>
-  </div>
 
-    <div className="homeCard grid">
     <div className="distDiv">
       <label htmlFor="distance">Distance</label>
       <input type="text" placeholder='11/Meters' />
-      </div>
     </div>
 
-    <div className="homeCard grid">
     <div className="priceDiv">
       <label htmlFor="price">Price</label>
       <input type="text" placeholder='100$' />
