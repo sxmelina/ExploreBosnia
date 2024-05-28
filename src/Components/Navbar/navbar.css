@@ -72,5 +72,70 @@
   .icon {
     font-size: 1.5rem;
   }
+@media screen and (max-width: 768px) {
+    .navBar {
+      background: grey;
+      position: absolute;
+      height: max-content;
+      padding: 1rem;
+      width: 100%;
+      top: 0;
+      left: -500%;
+      box-shadow: 0 2px 4px rgba(209, 209, 209, 0.94);
+      transition: 0.5s ease;
+      z-index: 1000;
+    }
+    .navlists {
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      margin: auto;
+    }
+    .navItem {
+      padding: 1rem 0;
+    }
+    .navLink {
+      color: black;
+      font-size: 1rem; /* Adjusted font size for example */
+      font-weight: 600;
+    }
+    .navLink:hover {
+      color: orange;
+    }
+    .headerBtns {
+      flex-direction: column;
+    }
+    .btn {
+      margin-top: 1rem;
+    }
+    .btn a {
+      font-weight: 600;
+    }
+    .btn a:hover {
+      color: orange;
+    }
+    .loginBtn {
+      background: none;
+      border: 1px solid;
+      color: green;
+    }
+    .loginBtn a {
+      color: black;
+    }
+    .loginBtn a:hover {
+      background: grey;
+      color: white;
+    }
+    .closeNavbar {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      color: white;
+    }
+    .closeNavbar:hover .icon {
+      color: black;
+    }
+  }
+  
   
   
