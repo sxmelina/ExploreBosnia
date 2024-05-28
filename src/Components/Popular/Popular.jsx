@@ -5,7 +5,7 @@ import { BsArrowRight } from "react-icons/bs";
 import { BsDot } from "react-icons/bs";
 
 import img from '../../assets/viber_image_2024-05-21_13-27-24-989.jpg';
-import img2 from '../../assets/viber_image_2024-05-21_13-27-13-224.jpg';
+import img2 from '../../assets/viber_image_2024-05-21_13-27-14-795.jpg';
 const Data = [
 {
   id:1,

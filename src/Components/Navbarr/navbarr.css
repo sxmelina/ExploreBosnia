@@ -1,0 +1,160 @@
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .header .logoDiv .logo {
+    color: #02121c;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  h1 {
+    font-weight: 2000;
+  }
+  
+  .navBar {
+    display: flex;
+    align-items: center;
+    transition: transform 0.5s ease;
+  }
+  
+  .navlists {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navItem {
+    margin-right: 1rem;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .headerBtns {
+    display: flex;
+  }
+  
+  .btn {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #02121c;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btn.loginBtn {
+    background-color: transparent;
+    color: #02121c;
+  }
+  
+  .closeNavbar {
+    display: none;
+  }
+  
+  .toggleNavbar {
+    display: none;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navBar {
+      flex-direction: column;
+      background: grey;
+      position: absolute;
+      height: max-content;
+      padding: 1rem;
+      width: 100%;
+      top: 0;
+      left: 0;
+      transform: translateX(-100%);
+      box-shadow: 0 2px 4px rgba(209, 209, 209, 0.94);
+      z-index: 1000;
+    }
+  
+    .navBar.activeNavbar {
+      transform: translateX(0);
+    }
+  
+    .navlists {
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      margin: auto;
+    }
+  
+    .navItem {
+      padding: 1rem 0;
+    }
+  
+    .navLink {
+      color: black;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+  
+    .navLink:hover {
+      color: orange;
+    }
+  
+    .headerBtns {
+      flex-direction: column;
+    }
+  
+    .btn {
+      margin-top: 1rem;
+    }
+  
+    .btn a {
+      font-weight: 600;
+    }
+  
+    .btn a:hover {
+      color: orange;
+    }
+  
+    .loginBtn {
+      background: none;
+      border: 1px solid;
+      color: green;
+    }
+  
+    .loginBtn a {
+      color: black;
+    }
+  
+    .loginBtn a:hover {
+      background: grey;
+      color: white;
+    }
+  
+    .closeNavbar {
+      display: block;
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      color: white;
+    }
+  
+    .closeNavbar:hover .icon {
+      color: black;
+    }
+  
+    .toggleNavbar {
+      display: block;
+    }
+  }
